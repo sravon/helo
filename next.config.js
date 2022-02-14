@@ -1,4 +1,3 @@
-const base_url = process.env.NEXTJS_BACKEND
 
 module.exports = {
   images:{
