@@ -33,7 +33,7 @@ export default function Slider({ results }) {
         {results.map(result => (
             <SwiperSlide key={result.id}>
             <img
-                src={`http://localhost:8000/${result.image}`}
+                src={`${process.env.NEXTJS_BACKEND}/${result.image}`}
                 //height={1080} width={1920}
                 className="object-fill w-full h-1/4"
             />
