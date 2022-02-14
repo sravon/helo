@@ -2,7 +2,7 @@
 module.exports = {
   images:{
     loader: "imgix",
-    path: "http://api.shrabon.me/"
+    path: "https://api.shrabon.me/"
   },
   
 };
