@@ -5,7 +5,7 @@ import { Oval } from  'react-loader-spinner'
 
 export default function Loader() {
   return (
-    <div className="mx-auto w-1/6">
+    <div className="mx-auto w-1/6 pb-12">
         <Oval
             heigth="100"
             width="100"
