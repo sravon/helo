@@ -1,10 +1,9 @@
-// module.exports = {
-//   reactStrictMode: true,
-// }
+const base_url = process.env.NEXTJS_BACKEND
+
 module.exports = {
   images:{
     loader: "imgix",
-    path: "http://127.0.0.1:8000/"
+    path: `${base_url}/`
   },
   
 };
